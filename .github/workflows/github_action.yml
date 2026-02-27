@@ -15,8 +15,8 @@ jobs:
       BLOCK: ${{ vars.BLOCK }}
       REDIRECT: ${{ vars.REDIRECT }}
 
-      CLIENT_ID: ${{ secrets.43c5d7 }}
-      AUTH_SECRET: ${{ secrets.9505bc552eca5d393fbd3fad5dee3bb0aa206d7a }}
+      CLIENT_ID: ${{ secrets.CLIENT_ID }}
+      AUTH_SECRET: ${{ secrets.AUTH_SECRET }}
 
       TZ: Europe/Moscow
 
