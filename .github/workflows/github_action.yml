@@ -11,7 +11,7 @@ jobs:
     environment: DNS
 
     env:
-      DNS: ${{ vars.DNS }}
+      DNS: ${{ vars.DNS.NextDNS.my }}
       BLOCK: ${{ vars.BLOCK }}
       REDIRECT: ${{ vars.REDIRECT }}
 
